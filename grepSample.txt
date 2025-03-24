@@ -1,0 +1,7 @@
+This is a sample file for practicing grep.
+We will search for specific words in this file.
+Grep is a powerful tool for searching text in files.
+Unix systems use grep to search and filter text data.
+Grep can search for patterns, like email addresses or URLs.
+Learning grep is essential for Unix system administrators.
+Grep is very fast and efficient for searching large files.
