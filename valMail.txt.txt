@@ -1,7 +1,10 @@
+#!/bin/bash
+
+# Prompt user for email input
 read -p "Enter email: " email
 
-# Basic email regex pattern
-if echo "$email" | grep -Eq "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"; then
+# Simple regex to validate email
+if [[ $email =~ ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$ ]]; then
     echo "Valid email"
 else
     echo "Invalid email"
